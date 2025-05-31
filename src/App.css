@@ -1,0 +1,56 @@
+  body {
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #333;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    /* Enable horizontal scrolling for long code blocks */
+  }
+
+  ul,
+  ol {
+    margin-left: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .multicolor-text {
+    background: linear-gradient(0.25turn, #6e76cf, #e6649a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
