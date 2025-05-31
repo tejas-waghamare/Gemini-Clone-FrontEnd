@@ -28,6 +28,7 @@ const Login = () => {
         // post req to validate user
         try {
             const res = await axios.post('http://localhost:3000/api/v1/auth/login', formData)
+            // const res = await axios.post('https://gemini-clone-backend-sandy.vercel.app/api/v1/auth/login', formData)
 
             alert(res.data.message);
             if (res.data.status == 'success') {
