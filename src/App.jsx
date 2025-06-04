@@ -10,7 +10,7 @@ function App() {
 
     return (
        <>
-       <div className="font-serif">
+       <div className="font-serif flex-wrap">
          <BrowserRouter>
             <Routes>
                 <Route path="/login" element={<Login />}/>
