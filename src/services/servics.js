@@ -117,7 +117,7 @@ export const getMessagesofChat = async (chatId) => {
         },
     }
     try {
-        const res = await axios.get(`http://localhost:3000/api/v1/message/get-all-messages/${chatId}`, config);
+        const res = await axios.get(`BACKEND_URL/api/v1/message/get-all-messages/${chatId}`, config);
         // const res = await axios.get(`https://gemini-clone-backend-sandy.vercel.app/api/v1/message/get-all-messages/${chatId}`, config);
 
         if (res.data.status == 'success') {
