@@ -13,7 +13,7 @@ const authSlice = createSlice({
             // state = {...payload}
         },
 
-        logout: ()=>{
+        logout: (state)=>{
             state = {
                 user: undefined,
                 token: ''
